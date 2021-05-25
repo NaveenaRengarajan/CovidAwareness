@@ -14,18 +14,17 @@
   
 
 
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/responsive.css')}}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/owl.css')}}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/color1.css')}}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap.css')}}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/animate.css')}}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/font-awesome-all.css')}}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css')}}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/sss.css')}}">
-<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/map.css')}}">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/owl.css">
+<link rel="stylesheet" type="text/css" href="css/color1.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome-all.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/sss.css">
+<link rel="stylesheet" type="text/css" href="css/map.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
  <style>
 * {
   box-sizing: border-box;
@@ -80,7 +79,7 @@ body {
         <header class="main-header">
             <div class="outer-box clearfix">
                 <div class="logo-box pull-left">
-                    <figure class="logo"><a href="index.html"><img src="{{ url_for('static', filename='image/logo.png') }}" alt=""></a></figure>
+                    <figure class="logo"><a href="index.html"><img src="image/logo.png" alt=""></a></figure>
                 </div>
 				        
                 <div class="menu-area pull-right">
@@ -94,7 +93,7 @@ body {
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation scroll-nav clearfix">
                                 <li></li>
-                                <li ><a href="url({{ url_for('templates', filename='index.html') }})">Home</a></li>
+                                <li ><a href="index.html">Home</a></li>
                                 
                             </ul>
                         </div>
@@ -109,7 +108,7 @@ body {
                                 }
                                 </script>
 
-                              <script type="text/javascript" src="{{ url_for('static', filename='js/lang.js') }}" >     </script>
+                              <script type="text/javascript" src="js/lang.js" >     </script>
                     </div>
                 </div>
 				
@@ -119,11 +118,11 @@ body {
             <!--sticky Header-->
         </header>
 		 <section class="about-section centred" id="about">
-            <div class="shape-layer" style="background-image: url(assets/images/shape/shape-2.png);"></div>
+            <div class="shape-layer" style="background-image: images/shape/shape-2.png"></div>
             <div class="anim-icon">
-               <div class="icon icon-1 rotate-me" style="background-image: url({{ url_for('static', filename='image/icon-1.png') }});"></div>
-                <div class="icon icon-2 rotate-me" style="background-image: url({{ url_for('static', filename='image/icon-2.png') }});"></div>
-				<div class="icon icon-3 rotate-me" style="background-image: url({{ url_for('static', filename='image/icon-3.png') }});"></div>
+               <div class="icon icon-1 rotate-me" style="background-image: image/icon-1.png"></div>
+                <div class="icon icon-2 rotate-me" style="background-image:image/icon-2.png"></div>
+				<div class="icon icon-3 rotate-me" style="background-image: image/icon-3.png"></div>
 				
             </div>
             <div class="auto-container">
@@ -153,11 +152,11 @@ body {
           
         <!-- main-footer end -->
         <footer class="main-footer">
-            <div class="shape-layer" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+            <div class="shape-layer" style="background-image:images/shape/shape-3.png"></div>
             <div class="anim-icon">
-                 <div class="icon icon-1 rotate-me" style="background-image: url({{ url_for('static', filename='image/icon-1.png') }});"></div>
-                <div class="icon icon-2 rotate-me" style="background-image: url({{ url_for('static', filename='image/icon-2.png') }});"></div>
-				<div class="icon icon-3 rotate-me" style="background-image: url({{ url_for('static', filename='image/icon-3.png') }});"></div>
+                 <div class="icon icon-1 rotate-me" style="background-image:image/icon-1.png"></div>
+                <div class="icon icon-2 rotate-me" style="background-image: image/icon-2.png"></div>
+				<div class="icon icon-3 rotate-me" style="background-image: image/icon-3.png"></div>
 				
             </div>
             <div class="footer-top">
@@ -166,7 +165,7 @@ body {
                         <div class="row clearfix">
                             <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div class="logo-widget footer-widget">
-                                    <figure class="footer-logo"><a href="index.html"><img src="{{ url_for('static', filename='image/footer-logo.png') }}" alt=""></a></figure>
+                                    <figure class="footer-logo"><a href="index.html"><img src="image/footer-logo.png" alt=""></a></figure>
                                     <div class="text">
                                         <p>The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads.</p>
                                         <p>Protect yourself and others from infec- tion by washing your hands or using an</p>
@@ -239,7 +238,7 @@ body {
       
 
 <!-- jequery plugins -->
-<script src="{{ url_for('static', filename='js/jquery1.js') }}"></script>
+<script src="js/jquery1.js"></script>
 
 
 </body><!-- End of .page_wrapper -->
